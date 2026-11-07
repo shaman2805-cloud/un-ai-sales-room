@@ -1,0 +1,47 @@
+{
+  "checked_at_utc": "2026-11-06T12:25:14.298460+00:00",
+  "mattermost_recovery": "restarted existing container; data volumes retained",
+  "pre_recovery_fault": "SIGSEGV fatal fault; HTTP timeout; unhealthy",
+  "root_cause_confirmed": false,
+  "public_http_checks": [
+    {
+      "path": "/api/v4/system/ping",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/api/v4/config/client?format=old",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "path": "/static/main.a90212b735b08b825522.js",
+      "status": 200,
+      "content_type": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "/static/remote_entry.js?bt=1783407188172",
+      "status": 200,
+      "content_type": "text/javascript; charset=utf-8"
+    }
+  ],
+  "first_lead": {
+    "id": "0bc7743adeb842d0bfe232201b9d7da3",
+    "revision": 1,
+    "demo": true,
+    "total_kzt": 150000,
+    "review_passed": true,
+    "human_approval_present": false,
+    "audit_event_kinds": [
+      "lead_created",
+      "review_completed"
+    ]
+  },
+  "role_handoffs_independently_verified": false,
+  "browser_interaction_verified": false
+}

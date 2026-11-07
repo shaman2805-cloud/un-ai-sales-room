@@ -1,0 +1,105 @@
+[
+  {
+    "sequence": 1,
+    "kind": "lead_created",
+    "details": {
+      "catalog_version": "demo-2026-11-03-v1",
+      "event_id": "demo-intake",
+      "revision": 1
+    },
+    "created_at": "2026-11-07T14:22:40.903570+00:00"
+  },
+  {
+    "sequence": 2,
+    "kind": "review_completed",
+    "details": {
+      "blockers": [],
+      "checked_at": "2026-11-07T14:22:40.904508+00:00",
+      "event_id": "demo-review",
+      "passed": true,
+      "quote_hash": "6606a6542c59eab60aad6da14803441fd2e7ae3d2d15f32e56ae43e37e77aa9e",
+      "revision": 1
+    },
+    "created_at": "2026-11-07T14:22:40.904651+00:00"
+  },
+  {
+    "sequence": 3,
+    "kind": "owner_approved",
+    "details": {
+      "approved_at": "2026-11-07T14:22:40.905148+00:00",
+      "by": "human_owner",
+      "event_id": "demo-test-owner",
+      "quote_hash": "6606a6542c59eab60aad6da14803441fd2e7ae3d2d15f32e56ae43e37e77aa9e",
+      "revision": 1
+    },
+    "created_at": "2026-11-07T14:22:40.905289+00:00"
+  },
+  {
+    "sequence": 4,
+    "kind": "proposal_rendered",
+    "details": {
+      "language": "en",
+      "quote_hash": "6606a6542c59eab60aad6da14803441fd2e7ae3d2d15f32e56ae43e37e77aa9e",
+      "revision": 1
+    },
+    "created_at": "2026-11-07T14:22:40.905793+00:00"
+  },
+  {
+    "sequence": 5,
+    "kind": "proposal_exported",
+    "details": {
+      "filename": "474e791d43db4faca01c1adb2c1e319c-v1.md",
+      "quote_hash": "6606a6542c59eab60aad6da14803441fd2e7ae3d2d15f32e56ae43e37e77aa9e",
+      "revision": 1
+    },
+    "created_at": "2026-11-07T14:22:40.906377+00:00"
+  },
+  {
+    "sequence": 8,
+    "kind": "lead_updated",
+    "details": {
+      "changed_fields": [
+        "budget_kzt"
+      ],
+      "event_id": "demo-budget-change",
+      "revision": 2
+    },
+    "created_at": "2026-11-07T14:22:40.909768+00:00"
+  },
+  {
+    "sequence": 9,
+    "kind": "review_completed",
+    "details": {
+      "blockers": [],
+      "checked_at": "2026-11-07T14:22:40.910438+00:00",
+      "event_id": "demo-review-v2",
+      "passed": true,
+      "quote_hash": "a454aeb1e4b8ba43d1e8aec9fc2a71c145c44cd0cb419ea5d8541f9e35094319",
+      "revision": 2
+    },
+    "created_at": "2026-11-07T14:22:40.910570+00:00"
+  },
+  {
+    "sequence": 10,
+    "kind": "owner_approved",
+    "details": {
+      "approved_at": "2026-11-07T14:22:40.911036+00:00",
+      "by": "human_owner",
+      "event_id": "demo-owner-v2",
+      "quote_hash": "a454aeb1e4b8ba43d1e8aec9fc2a71c145c44cd0cb419ea5d8541f9e35094319",
+      "revision": 2
+    },
+    "created_at": "2026-11-07T14:22:40.911181+00:00"
+  },
+  {
+    "sequence": 11,
+    "kind": "catalog_changed",
+    "details": {
+      "catalog_hash": "b1f69caf027587bc42da1376a1a9447f81ed9baa1c005e7670ed9fc43c18731a",
+      "catalog_version": "demo-2026-11-03-v1",
+      "from_revision": 2,
+      "revision": 3
+    },
+    "created_at": "2026-11-07T14:22:40.911875+00:00"
+  }
+]

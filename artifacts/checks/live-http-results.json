@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-11-06T11:56:11.703442+00:00",
+  "command": "PYTHONPATH=tests python3 -m unittest test_owner_http.OwnerHTTPTests -v",
+  "tests_run": 3,
+  "passed": 3,
+  "skipped": 0,
+  "failures": 0,
+  "errors": 0,
+  "actual_loopback_transport": true,
+  "human_browser_interaction_verified": false,
+  "live_switch_workflow_verified": false,
+  "tests": [
+    "actual_owner_flow_and_stale_download_refused",
+    "anonymous_actor_claim_cannot_approve",
+    "origin_csrf_and_host_checks"
+  ]
+}

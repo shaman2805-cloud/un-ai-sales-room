@@ -1,0 +1,16 @@
+{
+  "prepared_at_utc": "2026-11-06T15:10:34.741191+00:00",
+  "reason": "linux/amd64 Mattermost 11.9.0 repeatedly faults on aarch64 VZ VM; compression-only workaround insufficient; root cause still unconfirmed",
+  "host_rosetta_runtime_present": true,
+  "current_profile_rosetta_enabled": false,
+  "planned_change": "Gracefully stop and start existing unai-switch profile with --vz-rosetta --activate=false --ssh-config=false",
+  "cpu_memory_architecture_change": false,
+  "data_reset_planned": false,
+  "active_registration_verification": "/proc/sys/fs/binfmt_misc/rosetta: enabled and interpreter /mnt/lima-rosetta/rosetta",
+  "manual_script": "repair-switch-compatibility.command",
+  "script_syntax_verified": true,
+  "script_execution_verified": false,
+  "manual_start_required_because": "VM control from chat denied macOS boot-session-ID inspection",
+  "source": "https://github.com/lima-vm/lima/blob/v2.2.1/pkg/driver/vz/boot.Linux/05-rosetta-volume.sh#L17",
+  "rollback": "Gracefully stop the same profile and start with --vz-rosetta=false, retaining existing data."
+}

@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-11-06T12:56:16.970847+00:00",
+  "scenario": "User edited an approved demo lead budget; stale approval and export must be blocked",
+  "lead_id": "0bc7743adeb842d0bfe232201b9d7da3",
+  "current_revision": 2,
+  "new_budget_kzt": 320000,
+  "review_cleared": true,
+  "approval_cleared": true,
+  "export_exit_code": 1,
+  "export_error": "{\"error\": \"Current reviewed owner approval required before proposal export\"}",
+  "version_2_proposal_not_created": true,
+  "historical_version_1_file_unchanged": true,
+  "audit_event_kinds": [
+    "lead_created",
+    "review_completed",
+    "owner_approved",
+    "proposal_rendered",
+    "proposal_exported",
+    "lead_updated"
+  ],
+  "result": "passed"
+}

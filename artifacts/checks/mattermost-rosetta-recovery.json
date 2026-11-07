@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-11-06T15:12:43.760431+00:00",
+  "profile": "unai-switch",
+  "rosetta_registration_enabled": true,
+  "docker_engine_answered": true,
+  "mattermost_ping_passed": true,
+  "previously_failed_ui_chunk_download_passed": true,
+  "browser_room_visible_verified": true,
+  "data_reset_performed": false,
+  "browser_room_name": "unai-sales",
+  "browser_login_completed": true,
+  "browser_evidence": "User-provided screenshot shows authenticated private unai-sales channel with all three role greetings and message composer",
+  "observed_at_utc": "2026-11-06T15:15:38.930742+00:00",
+  "shared_room_agent_handoff_verified": false,
+  "long_term_stability_verified": false,
+  "root_cause_confirmed": false
+}

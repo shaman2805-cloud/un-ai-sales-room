@@ -1,0 +1,29 @@
+{
+  "version": "demo-2026-11-03-v1",
+  "demo": true,
+  "currency": "KZT",
+  "disclaimer": "Вымышленные демонстрационные цены. Это не действующий прайс UN AI.",
+  "services": [
+    {
+      "id": "landing_page",
+      "name": "Демонстрационный лендинг",
+      "unit_price_kzt": 120000,
+      "available": true,
+      "description": "Одна страница по согласованному содержанию. Без гарантии продаж."
+    },
+    {
+      "id": "lead_form",
+      "name": "Демонстрационная форма заявки",
+      "unit_price_kzt": 30000,
+      "available": true,
+      "description": "Локальное сохранение заявки. Внешняя CRM и отправка сообщений не подключены."
+    },
+    {
+      "id": "whatsapp_bot",
+      "name": "WhatsApp-бот",
+      "unit_price_kzt": null,
+      "available": false,
+      "description": "Не подтверждены провайдер, доступ, стоимость и возможность интеграции."
+    }
+  ]
+}

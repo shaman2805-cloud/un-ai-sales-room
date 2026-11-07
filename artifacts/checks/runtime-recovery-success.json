@@ -1,0 +1,31 @@
+{
+  "checked_at_utc": "2026-11-06T14:41:02.706908+00:00",
+  "manual_graceful_profile_restart_observed": true,
+  "restart_source": "User-provided terminal screenshot: existing unai-switch profile stopped and started successfully; Docker Engine 29.5.2; Mattermost responds",
+  "docker_api_available": true,
+  "docker_engine_running": true,
+  "docker_engine_version": "29.5.2",
+  "container_name": "switchdash-local-mattermost-mattermost-1",
+  "container_status": "Up 12 minutes (healthy)",
+  "mattermost_http_checks": [
+    {
+      "path": "/api/v4/system/ping",
+      "status": 200
+    },
+    {
+      "path": "/api/v4/config/client?format=old",
+      "status": 200
+    },
+    {
+      "path": "/",
+      "status": 200
+    }
+  ],
+  "shared_room_name": "unai-sales",
+  "shared_room_exists": true,
+  "existing_lead_messages_in_shared_room": 0,
+  "browser_login_page_loaded": true,
+  "browser_login_completed": false,
+  "root_cause_confirmed": false,
+  "data_reset_performed": false
+}

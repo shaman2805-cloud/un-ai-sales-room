@@ -1,0 +1,23 @@
+{
+  "checked_at_utc": "2026-11-06T14:09:13.122339+00:00",
+  "switch_native_api_listening": true,
+  "docker_api_available": false,
+  "docker_engine_running": null,
+  "docker_host_socket_connect_error": "ECONNREFUSED (61); socket path exists but local listener is unavailable",
+  "mattermost_http_available": false,
+  "colima_profile": "unai-switch",
+  "colima_vm_running_observed": true,
+  "vm_observation_sources": [
+    "User terminal screenshot: colima start says already running, ignoring; docker info fails",
+    "Fresh Lima guest-agent and time-sync log entries"
+  ],
+  "colima_status_from_chat_reliable": false,
+  "chat_start_blocker": "macOS sandbox denied boot session ID inspection (operation not permitted)",
+  "guest_docker_service_state": "not independently checked",
+  "suspected_cause": "Unavailable host-side Docker forwarding; root cause unconfirmed",
+  "manual_recovery_script": "resume-switch-room.command",
+  "recovery_script_action": "If Docker remains unavailable after colima start, gracefully restart only the existing unai-switch profile once, retain data, then start the existing Mattermost container and check HTTP health.",
+  "recovery_script_syntax_verified": true,
+  "updated_recovery_script_execution_verified": false,
+  "data_reset_performed": false
+}

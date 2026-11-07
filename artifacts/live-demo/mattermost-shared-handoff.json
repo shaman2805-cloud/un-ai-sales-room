@@ -1,0 +1,62 @@
+{
+  "checked_at_utc": "2026-11-07T09:43:21.442592+00:00",
+  "channel": "unai-sales",
+  "surface": "authenticated private Mattermost channel connected to Switch",
+  "lead_id": "0bc7743adeb842d0bfe232201b9d7da3",
+  "fictional_data": true,
+  "revision": 2,
+  "quoted_kzt": 150000,
+  "budget_kzt": 320000,
+  "visible_posts_in_order": [
+    {
+      "time_almaty": "2026-11-07 13:45",
+      "author": "user",
+      "post_id": "3z6bieomeb8ppgfdmoaa3o4xdo",
+      "purpose": "Requested review of existing revision 2"
+    },
+    {
+      "time_almaty": "2026-11-07 13:46",
+      "author": "unai-intake",
+      "post_id": "8p1u8atx4frxd815q8m7pi6hqw",
+      "addressed_agent": "unai-solution"
+    },
+    {
+      "time_almaty": "2026-11-07 13:46",
+      "author": "unai-solution",
+      "post_id": "zym4bf8popby9n6g7qmifpybja",
+      "purpose": "Catalog calculation 120000 + 30000 KZT"
+    },
+    {
+      "time_almaty": "2026-11-07 13:46",
+      "author": "unai-solution",
+      "post_id": "n7xefgejd7fiixyqujxnkaaz6y",
+      "addressed_agent": "unai-reviewer"
+    },
+    {
+      "time_almaty": "2026-11-07 13:47",
+      "author": "unai-reviewer",
+      "post_id": "z7q65uzgq7yedqjnjxtre3b96y",
+      "purpose": "Published successful application review"
+    },
+    {
+      "time_almaty": "2026-11-07 13:48",
+      "author": "unai-intake",
+      "post_id": "qbia53stw3y7pgkai143jsh3wc",
+      "purpose": "Published final approved revision 2 state"
+    }
+  ],
+  "sqlite_read_only_verification": {
+    "review_audit_sequence": 12,
+    "review_event_id": "switch-sw_39ac2c47065543a4b5629be5c5e0ecd6-review",
+    "review_passed": true,
+    "approval": {
+      "approved_at": "2026-11-06T13:46:32.245068+00:00",
+      "by": "human_owner",
+      "quote_hash": "93bbbaea504229b8ec16e7e916389219efec75e2392f5fa835ffe96b7d0ae40d",
+      "revision": 2
+    },
+    "review_quote_hash": "93bbbaea504229b8ec16e7e916389219efec75e2392f5fa835ffe96b7d0ae40d",
+    "saved_export_sha256": "6ae7d8f848cede09e7fe5f2a6b6a672ebccd3707e701f1056f123dea498b1d64",
+    "earlier_human_approval_preserved": true
+  }
+}

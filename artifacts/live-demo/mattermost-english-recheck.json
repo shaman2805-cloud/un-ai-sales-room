@@ -1,0 +1,46 @@
+{
+  "checked_at_utc": "2026-11-07T14:24:56.604334+00:00",
+  "channel": "unai-sales",
+  "lead_id": "0bc7743adeb842d0bfe232201b9d7da3",
+  "language": "English",
+  "observed_role_handoffs": true,
+  "posts": [
+    {
+      "author": "user",
+      "post_id": "4wuqyq4r67fjmgb1bdknj3bdqh",
+      "purpose": "Requested an English recheck of revision 2"
+    },
+    {
+      "author": "unai-intake",
+      "post_id": "airdnjrbzjnii8mbsw7bgw857a",
+      "addressed_agent": "unai-solution"
+    },
+    {
+      "author": "unai-solution",
+      "post_id": "9r8m68ap8fdipmm8b7f5bsmo6c",
+      "addressed_agent": "unai-reviewer"
+    },
+    {
+      "author": "unai-reviewer",
+      "post_id": "ihhzc9pp6j8q8g5coomg94y55w",
+      "purpose": "Reported application verification blocked"
+    }
+  ],
+  "agent_app_verification_passed": false,
+  "reported_blockers": [
+    "Operation not permitted when reading the project directory",
+    "No module named salesroom"
+  ],
+  "independent_desktop_sqlite_check": {
+    "revision": 2,
+    "prior_approval": {
+      "approved_at": "2026-11-06T13:46:32.245068+00:00",
+      "by": "human_owner",
+      "quote_hash": "93bbbaea504229b8ec16e7e916389219efec75e2392f5fa835ffe96b7d0ae40d",
+      "revision": 2
+    },
+    "most_recent_review_audit_sequence": 12,
+    "original_exports_match_archived_files": true
+  },
+  "prior_verified_shared_run": "mattermost-shared-handoff.json"
+}

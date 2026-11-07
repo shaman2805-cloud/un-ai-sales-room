@@ -1,0 +1,24 @@
+{
+  "checked_at_utc": "2026-11-04T06:19:07.736146+00:00",
+  "tests_run": 21,
+  "passed": 18,
+  "skipped": [
+    {
+      "test": "test_actual_owner_flow_and_stale_download_refused (test_owner_http.OwnerHTTPTests.test_actual_owner_flow_and_stale_download_refused)",
+      "reason": "Среда запрещает открытие локального порта; живая HTTP-проверка не выполнена"
+    },
+    {
+      "test": "test_anonymous_actor_claim_cannot_approve (test_owner_http.OwnerHTTPTests.test_anonymous_actor_claim_cannot_approve)",
+      "reason": "Среда запрещает открытие локального порта; живая HTTP-проверка не выполнена"
+    },
+    {
+      "test": "test_origin_csrf_and_host_checks (test_owner_http.OwnerHTTPTests.test_origin_csrf_and_host_checks)",
+      "reason": "Среда запрещает открытие локального порта; живая HTTP-проверка не выполнена"
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "successful": true,
+  "live_browser_verified": false,
+  "live_switch_verified": false
+}

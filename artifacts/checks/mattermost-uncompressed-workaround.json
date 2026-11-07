@@ -1,0 +1,59 @@
+{
+  "changed_at_utc": "2026-11-06T14:50:57.793090+00:00",
+  "container": "switchdash-local-mattermost-mattermost-1",
+  "setting": "ServiceSettings.WebserverMode",
+  "previous_value": "gzip",
+  "new_value": "uncompressed",
+  "original_backed_up_inside_config_volume": true,
+  "backup_filename": "config.unai-before-uncompressed-20261106T145046Z.json",
+  "config_file_mode": "0600",
+  "config_file_uid": 2000,
+  "config_file_gid": 2000,
+  "docker_image_changed": false,
+  "database_or_volume_reset": false,
+  "rosetta_changed": false,
+  "verification_pending": false,
+  "root_cause_confirmed": false,
+  "evidence": "Recurring unhealthy container and SIGSEGV/fault stack in klauspost/compress zstd; documented compression middleware disabled as a scoped workaround",
+  "source": "https://github.com/mattermost/mattermost/blob/v11.9.0/server/channels/web/static.go#L39-L45",
+  "http_checked_at_utc": "2026-11-06T14:51:34.730419+00:00",
+  "http_static_checks": [
+    {
+      "path": "/api/v4/system/ping",
+      "status": 200
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "content_encoding": null
+    },
+    {
+      "path": "/static/main.a90212b735b08b825522.js",
+      "status": 200,
+      "content_encoding": null,
+      "bytes_read": 18851
+    },
+    {
+      "path": "/static/remote_entry.js?bt=1783407188172",
+      "status": 200,
+      "content_encoding": null,
+      "bytes_read": 19296
+    }
+  ],
+  "documented_uncompressed_mode_effective": true,
+  "last_checked_at_utc": "2026-11-06T14:53:22.183553+00:00",
+  "container_health": "healthy",
+  "oom_killed": false,
+  "post_browser_load_ping_status": 200,
+  "new_critical_fault_markers": 0,
+  "browser_login_page_loaded_after_restart": true,
+  "browser_login_completed": false,
+  "browser_message": "Session expired after container restart; fresh user login is pending",
+  "follow_up_checked_at_utc": "2026-11-06T15:10:34.741191+00:00",
+  "follow_up_result": "insufficient: recurring SIGSEGV after login redirected to Town Square",
+  "persisted_webserver_mode_after_failure": "uncompressed",
+  "follow_up_fault_function": "github.com/golang/freetype/truetype.(*Font).parseKern",
+  "follow_up_container_health": "unhealthy",
+  "follow_up_ping_timed_out": true,
+  "browser_channel_blank": true
+}

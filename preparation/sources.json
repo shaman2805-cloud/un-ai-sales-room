@@ -1,0 +1,68 @@
+{
+  "retrieved_on_local_date": "2026-11-03",
+  "event": {
+    "overview": "https://www.wemakedevs.org/hackathons/switch",
+    "schedule": "https://www.wemakedevs.org/hackathons/switch/schedule",
+    "rules": "https://www.wemakedevs.org/hackathons/switch/rules",
+    "resources": "https://www.wemakedevs.org/hackathons/switch/resources"
+  },
+  "switch": {
+    "quickstart": "https://docs.switchagents.ai/switch-rooms/getting-started",
+    "repository": "https://github.com/sandbox-quantum/switch",
+    "release_tag": "switch-console-v0.40.1",
+    "release_published_at": "2026-10-21T09:09:52Z",
+    "release_url": "https://github.com/sandbox-quantum/switch/releases/tag/switch-console-v0.40.1",
+    "apple_silicon_asset": "https://github.com/sandbox-quantum/switch/releases/download/switch-console-v0.40.1/switch-console-arm64.dmg",
+    "asset_size_bytes": 335505523,
+    "asset_sha256_from_github": "1c3386515cc2b12a4ea9fe61e1e5eec6d960534bf0ac58a3d04a3a6994238e04"
+  },
+  "prerequisites": {
+    "colima": "https://formulae.brew.sh/formula/colima",
+    "docker": "https://formulae.brew.sh/formula/docker",
+    "docker_compose": "https://formulae.brew.sh/formula/docker-compose"
+  },
+  "existing_user_starter": {
+    "url": "https://github.com/shaman2805-cloud/un-ai-agent-teams",
+    "scope_at_read": "Instructions, templates and a local task generator; not an autonomous runner or connected sales workflow."
+  },
+  "portable_installation": {
+    "prefix_relative_to_chat": "work/switch-tools",
+    "assets": [
+      {
+        "component": "colima",
+        "version": "v0.10.3",
+        "source": "https://github.com/abiosoft/colima/releases/download/v0.10.3/colima-Darwin-arm64",
+        "measured_sha256": "980ad8bf61a4ca370243f4cb41401a61276dcd2c2502bee7b9b86f9250169f34",
+        "publisher_digest_verified": true
+      },
+      {
+        "component": "lima",
+        "version": "v2.2.1",
+        "source": "https://github.com/lima-vm/lima/releases/download/v2.2.1/lima-2.2.1-Darwin-arm64.tar.gz",
+        "measured_sha256": "9e9eacce88f37e185c346bad73aa6136f738d8cdf8c3bb23cd42b071824bc66e",
+        "publisher_digest_verified": true
+      },
+      {
+        "component": "compose",
+        "version": "v5.7.0",
+        "source": "https://github.com/docker/compose/releases/download/v5.7.0/docker-compose-darwin-aarch64",
+        "measured_sha256": "54495ff81dd8cae11861455f0308a293a530149beba8f1d90ff3f295b11cf035",
+        "publisher_digest_verified": true
+      },
+      {
+        "component": "switch",
+        "version": "switch-console-v0.40.1",
+        "source": "https://github.com/sandbox-quantum/switch/releases/download/switch-console-v0.40.1/switch-console-arm64.dmg",
+        "measured_sha256": "1c3386515cc2b12a4ea9fe61e1e5eec6d960534bf0ac58a3d04a3a6994238e04",
+        "publisher_digest_verified": true
+      },
+      {
+        "component": "docker",
+        "version": "29.9.2",
+        "source": "https://download.docker.com/mac/static/stable/aarch64/docker-29.9.2.tgz",
+        "measured_sha256": "ea8a2ce5ac31f9f5f3fb711a7a485e1e46cc7a69798a629a70306f6e6af25b7a",
+        "publisher_digest_verified": false
+      }
+    ]
+  }
+}

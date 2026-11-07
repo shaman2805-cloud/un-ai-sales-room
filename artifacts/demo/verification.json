@@ -1,0 +1,46 @@
+{
+  "generated_at_utc": "2026-11-07T14:22:40.912915+00:00",
+  "verification_scope": "deterministic local components, fictional fixtures, temporary database",
+  "live_switch_verified": false,
+  "live_ai_agents_executed": false,
+  "real_owner_approval_observed": false,
+  "test_owner_capability_used": true,
+  "client_messages_sent": false,
+  "checks": [
+    {
+      "scenario": "duplicate_intake",
+      "passed": true,
+      "lead_count": 1
+    },
+    {
+      "scenario": "agent_cannot_approve",
+      "passed": true
+    },
+    {
+      "scenario": "test_capability_to_proposal",
+      "passed": true,
+      "total_kzt": 150000
+    },
+    {
+      "scenario": "persistent_state",
+      "passed": true
+    },
+    {
+      "scenario": "unverified_whatsapp_blocked",
+      "passed": true,
+      "blockers": [
+        "The owner needs to confirm availability and pricing for WhatsApp bot."
+      ]
+    },
+    {
+      "scenario": "scope_revision_blocks_stale_export",
+      "passed": true,
+      "revision": 2
+    },
+    {
+      "scenario": "catalog_content_change_revokes_approval",
+      "passed": true,
+      "new_total_kzt": 160000
+    }
+  ]
+}
