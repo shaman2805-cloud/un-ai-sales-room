@@ -2,6 +2,8 @@
 
 UN AI Sales Room turns a service request into a priced proposal. Three Codex agents pass the work through a shared Switch room in Mattermost. The business owner approves a specific revision in a private local panel before export.
 
+[English demo video (MP4)](https://github.com/shaman2805-cloud/un-ai-sales-room/releases/download/hackathon-demo/un-ai-sales-room-demo.mp4)
+
 ## Workflow
 
 1. `unai-intake` records the request and asks for missing information.
